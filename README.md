@@ -23,7 +23,7 @@ Pequeno estudo de **rate-limiting** usando o algoritmo *Leaky Bucket* com:
 
 ```bash
 bun install         # instala dependências
-bun run src/index.ts
+bun dev
 # API em http://localhost:3000
 ````
 
