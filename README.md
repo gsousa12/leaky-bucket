@@ -64,7 +64,4 @@ docker compose up --build -d     # sobe api:3000 + redis:6379
 | `docker compose up`    | sobe API + Redis em containers |
 
 ---
-
 > Projeto criado apenas para fins de estudo.
-
-```
