@@ -7,9 +7,9 @@ services:
     restart: unless-stopped
 
   # api:
-  #   build: # ⬅️ usa a pasta api como contexto
+  #   build: 
   #     context: ./api
-  #     dockerfile: Dockerfile # (opcional, é o nome padrão)
+  #     dockerfile: Dockerfile 
   #   container_name: leaky_api
   #   ports:
   #     - "3000:3000"
