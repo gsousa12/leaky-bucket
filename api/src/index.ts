@@ -13,7 +13,7 @@ app
       capacity: rateLimitCapacity,
       windowSec: rateLimitWindowSec,
     })
-  ) // 10 req/min por API-Key
+  )
   .get("/secure", () => "Rota Limitada");
 
 app.listen(port);

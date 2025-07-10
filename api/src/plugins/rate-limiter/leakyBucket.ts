@@ -1,11 +1,6 @@
 import { redis } from "../../lib/redis";
 import type { Configuration, AttemptResult } from "./types";
 
-/**
- * Gera uma função `attempt(key)` já configurada.
- * – Não usa this/new.
- * – Mantém capacity/windowSec fechados na closure.
- */
 export const createLeakyBucket = (configuration: Configuration) => {
   const { capacity, windowSec } = configuration;
 
