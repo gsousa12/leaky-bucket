@@ -1,14 +1,14 @@
-````markdown
+
 # Leaky Bucket API — Elysia + Bun + Redis
 
 Pequeno estudo de **rate-limiting** usando o algoritmo *Leaky Bucket* com:
 
-- [Elysia](https://elysiajs.com/) — micro-framework HTTP para Bun
-- [Bun](https://bun.sh/) — runtime JS/TS super-rápido (interpreta TS nativamente)
-- **Redis** — contador distribuído (chave por API-Key)
-- **TypeScript** — tipagem forte, tudo 100% TS
-- **TypeBox** — validação de variáveis de ambiente
-- **Docker + docker-compose** — um comando sobe API + Redis
+- Elysia — micro-framework HTTP para Bun
+- Bun — runtime JS/TS super-rápido (interpreta TS nativamente)
+- Redis — contador distribuído (chave por API-Key)
+- TypeScript — tipagem forte, tudo 100% TS
+- TypeBox — validação de variáveis de ambiente
+- Docker + docker-compose — um comando sobe API + Redis
 
 ---
 
@@ -20,12 +20,10 @@ Pequeno estudo de **rate-limiting** usando o algoritmo *Leaky Bucket* com:
 - Node/PNPM não são necessários
 
 ### 2. Local (rápido)
-
-```bash
 bun install         # instala dependências
 bun dev
 # API em http://localhost:3000
-````
+
 
 Crie um arquivo `.env` com:
 
